@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/red.png">
+    <link rel="stylesheet" href="style.css">
+    <title>FF-Collections</title>
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <header id="head">
+        <div id="head-container">
+            <nav class="navigation">
+                <div class="menu-button">
+                    <ul class="topmenu">
+                        <form id="search-head">
+                            <input type="search" placeholder="Search...">
+                        </form>
+                        <li> <a href="index.html" class="nav-menu">Home</a></li>
+                        <li> <a href="About-us.html" class="nav-menu"> About us</a></li>
+                        <a href="index.html" class="nav-menu"> <img src="images/loggo.png" class="logo"> </a>
+                        <li> <a href="Collections.html" class="nav-menu">Collections</a>
+                            <ul class="submenu">
+                                <li><a href="index4.html">Summer'22</a></li>
+                                <li><a href="index5.html">Autumn'22</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="Contact.html" class="nav-menu ">Contact</a></li>
+                        <a href="#win2" class="btn-header"> <img id="email" src="images/email.png" alt=""></a>
+                        <a href="#win" class="overlay" id="win2"></a>
+                        <div class="popup">
+                            <div id="range1">
+                                <div class="login-wr">
+                                    <h2>do you want to be the first to know fashion news?</h2>
+                                    <div class="form">
+                                        <input type="email" name="email" placeholder="Enter a valid email address" class="form__action_home">
+                                        <button type="submit" name="btn"> Submit </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="close" title="Close" href="#close"></a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header">
+                <a href="index.html" class="nav-menu"> <img src="images/loggo.png" class="logo"> </a>
+                <form action="#" class="header__search-form">
+                    <input type="search" class="header__search-input" placeholder="Search...">
+                </form>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li> <a href="index.html" class="nav-menu">Home</a></li>
+                    <li> <a href="About-us.html" class="nav-menu"> About us</a></li>
+                    <li> <a href="Collections.html" class="nav-menu">Collections</a>
+                        <ul class="submenu">
+                            <li><a href="index4.html">Summer'22</a></li>
+                            <li><a href="index5.html">Autumn'22</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="Contact.html" class="nav-menu ">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container-all">
+            <section class="section1__collection">
+
+                <div class="collection1">
+                    <h2 class="collection_title">Your guide to the season's hottest runway trends</h2>
+                    <p>Forget any trashy preconceptions you had about print -print clothes with polka dots or stripes in a big way for summer 2022, as seen on the catwalks of Victoria Beckham, Calvin Klein, Givenchy, Balenciaga and Tom Ford.</p>
+                    <div class="collection1-cub1"></div>
+                    <div class="ramka">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <a href="index4.html"> Summer '22</a>
+                    </div>
+                </div>
+                <div class="section1__block">
+                    <div class="collection2">
+                    </div>
+                    <div class="collection3"></div>
+                </div>
+            </section>
+        </div>
+        <section class="section2__collection">
+            <div class="customer_slider">
+                <div class="slider">
+                    <div class="item">
+                        <div> <img src="images/customs (2).png" alt="kavychki" class="customs-before"></div>
+                        <p class="sliderText">
+                            "We're always looking a season ahead to find the next It item or trend. It's part of our DNA as fashion-lovers. If you're like us, you've been paying close attention to what's been popular on the streets during Fashion Month — that's what gives us a good
+                            indication of what to expect in 2022." - <strong> Bertie Norton, Financial Director </strong></p>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div> <img src="images/customss.png" alt="kavychki" class="customs-before"></div>
+                        <p class="sliderText">
+
+                            "While we definitely know glittery boots are "in" right now and so is wearing red, we took things one step further and predicted the next big need-to-know trends. That way, you can adequately prepare your shopping list. Read on to see the 10 major styles
+                            we think every fashion girl should know for 2022." - <strong>Mary Hudson, Top Model</strong>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div> <img src="images/customs (2).png" alt="kavychki" class="customs-before"></div>
+                        <p class="sliderText"> “Lorem is a true dandy and a man of impeccable taste. For Fashion Flash, the most influential magazine about style, he is a role model. He has made an impressive career in fashion and as a successful editor-in- chief. Lorem is
+                            a person who can achieve the unity of form and matter." -<strong> Michele Berkle, Fashion guru </strong>
+                        </p>
+                    </div>
+                    <a class="prev" onclick="minusSlide()">&#10094;</a>
+                    <a class="next" onclick="plusSlide()">&#10095;</a>
+                    <div class="slider-dots">
+                        <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+                        <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+                        <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3__collection">
+            <div class="container-all">
+                <div class="section3__block">
+                    <div class="collection3-cub1"></div>
+                    <div class="collection4">
+                    </div>
+                    <div class="collection5">
+                        <h2 class="collection_title">The Biggest Fall 2022 Trends From the Runways</h2>
+                        <p>Comfortable knitwear gets a come hither spin for fall 2022—and not in the way you think. Fluffy, brushed mohairs, angoras, and wools seen at Loewe, Hermès, and Kiko Kostadinov are the types of fabrics you can't help but stroke.
+                            These are sweater dresses best shared.</p>
+                        <div class="ramka">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a href="index5.html">Autumn '22</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="icontop">
+        <a href="#top"> <img src="images/icontop.png" alt="top"></a>
+    </div>
+
+    <footer>
+        <div class="all-futer">
+            <ul class="ul-nav">
+                <li>
+                    <a class="ul-button" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="ul-button" href="About-us.html">About us</a>
+                </li>
+                <li>
+                    <a class="ul-button" href="Collections.html">Collections</a>
+                </li>
+                <li>
+                    <a class="ul-button" href="Contact.html">Contact</a>
+                </li>
+                <li id="modal-win"> <a href="#win3" class="ul-button">Subscribe</a>
+                    <a href="#win" class="overlay" id="win3"></a>
+                    <div class="popup">
+                        <div id="range1">
+                            <div class="login-wr">
+                                <h2>do you want to be the first to know fashion news?</h2>
+                                <div class="form">
+                                    <input type="email" name="email" placeholder="Enter a valid email address" class="form__action_home">
+                                    <button type="submit" name="btn"> Submit </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="close" title="close" href="#close"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="icons">
+                <a href="https://twitter.com" target="_blanck"><img class="icon" src="images/pngwing.com (8).png" alt="twitter"></a>
+                <a href="https://www.facebook.com" target="_blanck"><img class="icon-face" src="images/pngwing.com (10).png" alt="facebook"></a>
+                <a href="https://instagram.com" target="_blanck"> <img class="icon-insta" src="images/pngwing.com (12).png" alt="insta"></a>
+            </div>
+            <a href="index.html" class="nav-menu"> <img src="images/loggo.png" class="logo" id="logo"> </a>
+            <div class="text-footer-bottom">
+                <p>Copyright © 2022 by Manila | All rights reserved
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+
+</html>
